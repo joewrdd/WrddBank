@@ -1,0 +1,79 @@
+.main_menu_container {
+    -fx-background-color: #EEEEEE;
+    -fx-alignment: center;
+    -fx-padding: 0 10 0 10;
+}
+
+.left_menu_container {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 10 10 10 10;
+    -fx-effect: dropshadow(two-pass-box, #AAAAAA, 5, 0, 0, 4);
+}
+
+/* Title/Logo Section */
+.title_container {
+    -fx-background-color: #FFFFFF;
+    -fx-background-radius: 20 20 0 0;
+    -fx-alignment: top_center;
+    -fx-padding: 10;
+}
+
+.title_container FontAwesomeIconView {
+    -fx-fill: #003333;
+}
+
+.title_container Text {
+    -fx-fill: #000000;
+    -fx-font-size: 2em;
+}
+
+/* Navigation Section */
+.menu_container {
+    -fx-padding: 10 10 10 20;
+    -fx-spacing: 20;
+
+}
+
+.menu_container Button {
+    -fx-background-color: #FFFFFF;
+    -fx-pref-width: 115;
+    -fx-pref-height: 40;
+    -fx-text-fill: #003333;
+    -fx-font-size: 1.1em;
+    -fx-alignment: center_left;
+    -fx-effect: dropshadow(three-pass-box, #DDDDDD, 5, 0, 0, 6);
+}
+
+.menu_container Button:hover {
+    -fx-cursor: hand;
+    -fx-background-color: #f0f0f0;
+    -fx-effect: dropshadow(three-pass-box, rgba(108, 108, 108, 0.5), 6, 0, 0, 3);
+}
+
+.menu_container Button FontAwesomeIconView {
+    -fx-fill: #003333;
+}
+
+.alt_menu_btn {
+    -fx-pref-width: 115.1;
+    -fx-pref-height: 40;
+    -fx-font-size: 1.1em;
+    -fx-background-color: linear-gradient(to right, #003333, #001111);
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 4, 0, 0, 3);
+    -fx-text-fill: #FFFFFF;
+    -fx-font-family: "Calibri Light";
+    -fx-border-radius: 5;
+    -fx-padding: 10;
+    -fx-transition: all 0.3s ease-in-out;
+}
+
+.alt_menu_btn:hover {
+    -fx-cursor: hand;
+    -fx-background-color: linear-gradient(to right, #00695C, #003D35);
+    -fx-effect: dropshadow(three-pass-box, rgba(0, 51, 51, 0.5), 6, 0, 0, 3);
+}
+
+.alt_menu_btn FontAwesomeIconView {
+    -fx-fill: #FFFFFF;
+}
+

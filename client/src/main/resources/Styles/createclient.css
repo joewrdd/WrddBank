@@ -1,0 +1,128 @@
+.create_client_container {
+  --fxbackground-color: #eeeeee;
+}
+
+.create_client_container Text {
+  -fx-font-size: 1.2em;
+  -fx-fill: #888888;
+}
+
+.create_client_container VBox {
+  -fx-border-width: 0 0 0 1;
+  -fx-border-color: black;
+  -fx-padding: 10;
+  -fx-spacing: 15;
+}
+
+.create_client_container TextField {
+  -fx-pref-width: 220;
+  -fx-pref-height: 38;
+  -fx-background-color: #ffffff;
+  -fx-border-color: #cccccc;
+  -fx-border-radius: 5;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.15), 3, 0, 0, 2);
+}
+
+.create_client_container TextField:focused {
+  -fx-border-color: #003333;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 51, 51, 0.5), 5, 0, 0, 3);
+}
+
+.title {
+  -fx-fill: #555555;
+  -fx-font-size: 1.8em;
+  -fx-font-family: "Calibri Light";
+}
+
+.section_title {
+  -fx-fill: #003333;
+  -fx-font-size: 1.5em;
+  -fx-font-family: "Calibri Light";
+  -fx-font-weight: bold;
+  -fx-underline: true;
+  -fx-padding: 10 0 5 0;
+}
+
+.payee_address_lbl {
+  -fx-pref-width: 250;
+  -fx-pref-height: 30;
+  -fx-padding: 5;
+  -fx-background-color: #888888;
+  -fx-background-radius: 5;
+  -fx-text-fill: #ffffff;
+  -fx-font-size: 1.3em;
+  -fx-effect: dropshadow(three-pass-box, #aaaaaa, 3, 0, 0, 3);
+}
+
+.create_client_container Button {
+  -fx-background-color: linear-gradient(to right, #003333, #001111);
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 4, 0, 0, 3);
+  -fx-font-size: 1.4em;
+  -fx-text-fill: #ffffff;
+  -fx-font-family: "Calibri Light";
+  -fx-pref-width: 220;
+  -fx-border-radius: 5;
+  -fx-padding: 10;
+  -fx-transition: all 0.3s ease-in-out;
+}
+
+.create_client_container Button:hover {
+  -fx-cursor: hand;
+  -fx-background-color: linear-gradient(to right, #00695c, #003d35);
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 51, 51, 0.5), 6, 0, 0, 3);
+}
+
+.error_lbl {
+  -fx-text-fill: #660000;
+}
+
+.scroll_pane {
+  -fx-background-color: transparent;
+  -fx-border-color: transparent;
+}
+
+.scroll_pane > .viewport {
+  -fx-background-color: transparent;
+}
+
+.scroll_pane > .scroll-bar:vertical {
+  -fx-background-color: transparent;
+  -fx-background-radius: 0;
+}
+
+.scroll_pane > .scroll-bar:vertical > .thumb {
+  -fx-background-color: #aaaaaa;
+  -fx-background-radius: 5;
+}
+
+.create_client_container ComboBox {
+  -fx-pref-width: 220;
+  -fx-pref-height: 38;
+  -fx-background-color: #ffffff;
+  -fx-border-color: #cccccc;
+  -fx-border-radius: 5;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.15), 3, 0, 0, 2);
+}
+
+.create_client_container ComboBox:focused {
+  -fx-border-color: #003333;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 51, 51, 0.5), 5, 0, 0, 3);
+}
+
+.create_client_container ComboBox .list-cell {
+  -fx-text-fill: #333333;
+  -fx-font-size: 1.1em;
+  -fx-padding: 5 10 5 10;
+}
+
+.create_client_container ComboBox .list-view {
+  -fx-background-color: #ffffff;
+  -fx-border-color: #cccccc;
+  -fx-border-radius: 5;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.15), 3, 0, 0, 2);
+}
+
+.create_client_container CheckBox {
+  -fx-font-size: 1.1em;
+  -fx-text-fill: #444444;
+}

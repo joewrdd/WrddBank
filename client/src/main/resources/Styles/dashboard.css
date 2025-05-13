@@ -1,0 +1,261 @@
+.dashboard {
+  -fx-background-color: #ffffff;
+}
+
+.user_name {
+  -fx-font-family: "System";
+  -fx-font-size: 2.6em;
+  -fx-fill: #000000;
+}
+
+.date_lbl {
+  -fx-text-fill: #aaaaaa;
+  -fx-font-family: "System";
+  -fx-font-size: 1.1em;
+}
+
+.section_title {
+  -fx-font-family: "System";
+  -fx-font-size: 1.4em;
+  -fx-fill: #000000;
+  -fx-font-weight: bold;
+}
+
+/* Accounts View */
+.accounts_view {
+  -fx-alignment: center_left;
+}
+
+.account {
+  -fx-background-radius: 10;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 5, 0, 0, 5);
+}
+
+.account VBox {
+  -fx-background-color: #ffffff;
+}
+
+.account Text {
+  -fx-fill: #eeeeee;
+  -fx-font-size: 1.2em;
+  -fx-font-weight: bold;
+}
+
+.account FontAwesomeIconView {
+  -fx-fill: #eeeeee;
+}
+
+.account_checking {
+  -fx-background-color: linear-gradient(to right, #023020, #40826d);
+}
+
+.account_savings {
+  -fx-background-color: linear-gradient(to right, #003333, #2aaa8a);
+}
+
+.account_balance {
+  -fx-text-fill: #ffffff;
+  -fx-font-size: 2em;
+  -fx-font-weight: bold;
+}
+
+.account_number {
+  -fx-text-fill: #eeeeee;
+  -fx-font-family: "System";
+  -fx-font-size: 0.9em;
+}
+
+/* Accounts Summary View */
+.summary_view {
+  -fx-alignment: center;
+}
+
+.acc_summary_container {
+  -fx-background-color: #ffffff;
+  -fx-background-radius: 10;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 5, 0, 0, 5);
+}
+
+.acc_summary_container Line {
+  -fx-stroke: #dddddd;
+}
+
+.summary_label {
+  -fx-fill: #444444;
+  -fx-font-family: "System";
+  -fx-font-size: 1.2em;
+  -fx-font-weight: normal;
+}
+
+.income_amount {
+  -fx-text-fill: #26a65b;
+  -fx-font-size: 1.5em;
+  -fx-font-weight: bold;
+}
+
+.expense_amount {
+  -fx-text-fill: #f03434;
+  -fx-font-size: 1.5em;
+  -fx-font-weight: bold;
+}
+
+/* Transaction View */
+.transaction_listview {
+  -fx-background-color: transparent;
+  -fx-border-color: transparent;
+  -fx-border-width: 0;
+  -fx-padding: 5;
+  -fx-background-insets: 0;
+}
+
+.transaction_listview .scroll-bar:vertical {
+  -fx-scale-x: 0;
+}
+
+.transaction_listview .list-cell {
+  -fx-background-color: transparent;
+  -fx-padding: 5 0;
+  -fx-border-width: 0;
+  -fx-background-insets: 0;
+  -fx-translate-x: 0;
+  -fx-translate-y: 0;
+}
+
+.transaction_listview .list-cell:hover {
+  -fx-background-color: transparent;
+  -fx-translate-x: 0;
+  -fx-translate-y: 0;
+}
+
+.transaction_listview .list-cell:focused {
+  -fx-background-color: transparent;
+  -fx-background-insets: 0;
+  -fx-translate-x: 0;
+  -fx-translate-y: 0;
+}
+
+.transaction_listview .scroll-bar:horizontal {
+  -fx-opacity: 0;
+  -fx-pref-height: 0;
+  -fx-min-height: 0;
+  -fx-max-height: 0;
+}
+
+/* General list-cell styles (for other list views) */
+.list-cell {
+  -fx-background-color: #eeeeee;
+  -fx-padding: 15 0 15 0;
+}
+
+.list-cell:hover {
+  -fx-background-color: #dddddd;
+}
+
+/* Send Money View */
+.new_transaction_container {
+  -fx-background-color: #ffffff;
+  -fx-background-radius: 10;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 5, 0, 0, 5);
+}
+
+.new_transaction_container Label {
+  -fx-font-size: 1.3em;
+  -fx-font-family: "Calibri Light";
+}
+
+.new_transaction_container TextField {
+  -fx-pref-height: 40;
+  -fx-background-color: #ffffff;
+  -fx-border-color: #cccccc;
+  -fx-border-radius: 5;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.15), 3, 0, 0, 2);
+}
+
+.new_transaction_container TextField:focused {
+  -fx-border-color: #003333;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 51, 51, 0.5), 5, 0, 0, 3);
+}
+
+.new_transaction_container TextArea {
+  -fx-background-color: #ffffff;
+  -fx-border-color: #cccccc;
+  -fx-border-radius: 5;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.15), 3, 0, 0, 2);
+}
+
+.new_transaction_container TextArea:focused {
+  -fx-border-color: #003333;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 51, 51, 0.5), 5, 0, 0, 3);
+}
+
+.new_transaction_container Button {
+  -fx-background-color: linear-gradient(to right, #003333, #001111);
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.2), 4, 0, 0, 3);
+  -fx-font-size: 1.4em;
+  -fx-text-fill: #ffffff;
+  -fx-font-family: "Calibri Light";
+  -fx-pref-width: 220;
+  -fx-border-radius: 5;
+  -fx-padding: 10;
+  -fx-transition: all 0.3s ease-in-out;
+}
+
+.new_transaction_container Button:hover {
+  -fx-cursor: hand;
+  -fx-background-color: linear-gradient(to right, #00695c, #003d35);
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 51, 51, 0.5), 6, 0, 0, 3);
+}
+
+.new_transaction_container .combo-box {
+  -fx-pref-height: 40;
+  -fx-background-color: #ffffff;
+  -fx-border-color: #cccccc;
+  -fx-border-radius: 5;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.15), 3, 0, 0, 2);
+}
+
+.new_transaction_container .combo-box:focused {
+  -fx-border-color: #003333;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 51, 51, 0.5), 5, 0, 0, 3);
+}
+
+.new_transaction_container .combo-box .arrow-button {
+  -fx-background-color: linear-gradient(to right, #003333, #001111);
+}
+
+.new_transaction_container .combo-box .arrow {
+  -fx-background-color: white;
+}
+
+.new_transaction_container .combo-box .list-cell {
+  -fx-text-fill: #333333;
+  -fx-font-family: "Calibri Light";
+  -fx-font-size: 1.2em;
+  -fx-background-color: #ffffff;
+  -fx-padding: 5 0 5 5;
+}
+
+.new_transaction_container .combo-box-popup .list-view {
+  -fx-background-color: #ffffff;
+  -fx-border-color: #003333;
+  -fx-border-width: 1;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 51, 51, 0.5), 5, 0, 0, 3);
+}
+
+.new_transaction_container .combo-box-popup .list-view .list-cell {
+  -fx-background-color: #ffffff;
+  -fx-text-fill: #333333;
+}
+
+.new_transaction_container .combo-box-popup .list-view .list-cell:hover {
+  -fx-background-color: #00695c;
+  -fx-text-fill: #ffffff;
+}
+
+.action_btn {
+  -fx-text-fill: white;
+  -fx-font-weight: bold;
+  -fx-font-size: 1.1em;
+  -fx-background-radius: 5;
+  -fx-cursor: hand;
+}

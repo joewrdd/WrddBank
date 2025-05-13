@@ -1,0 +1,54 @@
+.transactions_container {
+  -fx-background-color: #eeeeee;
+}
+
+.transactions_container Text {
+  -fx-font-family: "Calibri";
+  -fx-font-size: 2.6em;
+  -fx-fill: #000000;
+}
+
+.list-view {
+  -fx-background-color: transparent;
+  -fx-border-width: 0;
+  -fx-background-insets: 0;
+  -fx-padding: 0;
+}
+
+.list-cell {
+  -fx-background-color: transparent;
+  -fx-padding: 5 0;
+  -fx-border-width: 0;
+  -fx-background-insets: 0;
+  -fx-translate-x: 0;
+  -fx-translate-y: 0;
+}
+
+.list-cell:hover {
+  -fx-background-color: transparent;
+  -fx-translate-x: 0;
+  -fx-translate-y: 0;
+}
+
+.list-cell:focused {
+  -fx-background-color: transparent;
+  -fx-background-insets: 0;
+  -fx-translate-x: 0;
+  -fx-translate-y: 0;
+}
+
+.list-view .scroll-bar:horizontal {
+  -fx-opacity: 0;
+  -fx-pref-height: 0;
+  -fx-min-height: 0;
+  -fx-max-height: 0;
+}
+
+.list-view .scroll-bar:vertical {
+  -fx-background-color: transparent;
+}
+
+.list-view .scroll-bar:vertical .thumb {
+  -fx-background-color: #bbbbbb;
+  -fx-background-radius: 5em;
+}

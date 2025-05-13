@@ -1,0 +1,207 @@
+.dashboard_container {
+  -fx-background-color: #eeeeee;
+  -fx-padding: 0;
+}
+
+.title {
+  -fx-fill: #555555;
+  -fx-font-size: 1.8em;
+  -fx-font-family: "Calibri Light";
+}
+
+.dashboard_scroll_pane {
+  -fx-background-color: transparent;
+  -fx-border-color: transparent;
+}
+
+.dashboard_scroll_pane > .viewport {
+  -fx-background-color: transparent;
+}
+
+.dashboard_content {
+  -fx-padding: 15;
+  -fx-spacing: 25;
+}
+
+/* Stats Cards */
+.stats_container {
+  -fx-spacing: 20;
+}
+
+.stats_card {
+  -fx-background-color: white;
+  -fx-background-radius: 8px;
+  -fx-border-radius: 8px;
+  -fx-border-color: #e0e0e0;
+  -fx-border-width: 1px;
+  -fx-padding: 15;
+  -fx-spacing: 20;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 5, 0, 0, 2);
+  -fx-pref-width: 385;
+}
+
+.card_icon {
+  -fx-fill: #003333;
+}
+
+.card_title {
+  -fx-fill: #003333;
+  -fx-font-size: 1.4em;
+  -fx-font-weight: bold;
+}
+
+.stat_box {
+  -fx-alignment: center;
+  -fx-padding: 10 20;
+  -fx-spacing: 5;
+}
+
+.stat_value {
+  -fx-fill: #003333;
+  -fx-font-size: 2.5em;
+  -fx-font-weight: bold;
+}
+
+.stat_label {
+  -fx-fill: #666666;
+  -fx-font-size: 1.1em;
+}
+
+.refresh_btn {
+  -fx-background-color: #f5f5f5;
+  -fx-border-color: #cccccc;
+  -fx-border-radius: 4;
+  -fx-background-radius: 4;
+  -fx-pref-width: 30;
+  -fx-pref-height: 30;
+  -fx-padding: 5;
+}
+
+.refresh_btn:hover {
+  -fx-background-color: #e8e8e8;
+  -fx-cursor: hand;
+}
+
+.refresh_btn FontAwesomeIconView {
+  -fx-fill: #003333;
+}
+
+/* System Health Status */
+.status_online {
+  -fx-fill: #00695c;
+  -fx-font-weight: bold;
+}
+
+.status_warning {
+  -fx-fill: #ff9800;
+  -fx-font-weight: bold;
+}
+
+.status_offline {
+  -fx-fill: #d32f2f;
+  -fx-font-weight: bold;
+}
+
+/* Chart Sections */
+.chart_section {
+  -fx-background-color: white;
+  -fx-background-radius: 8px;
+  -fx-border-radius: 8px;
+  -fx-border-color: #e0e0e0;
+  -fx-border-width: 1px;
+  -fx-padding: 15;
+  -fx-spacing: 15;
+  -fx-effect: dropshadow(three-pass-box, rgba(0, 0, 0, 0.1), 5, 0, 0, 2);
+}
+
+.section_icon {
+  -fx-fill: #003333;
+}
+
+.section_title {
+  -fx-fill: #003333;
+  -fx-font-size: 1.4em;
+  -fx-font-weight: bold;
+}
+
+/* Combo Box */
+.chart_section ComboBox {
+  -fx-background-color: #ffffff;
+  -fx-border-color: #cccccc;
+  -fx-border-radius: 4;
+  -fx-background-radius: 4;
+  -fx-pref-height: 30;
+  -fx-font-size: 1.1em;
+}
+
+.chart_section ComboBox:hover {
+  -fx-border-color: #003333;
+}
+
+/* Charts */
+.chart {
+  -fx-padding: 10;
+  -fx-background-color: transparent;
+}
+
+.chart-title {
+  -fx-text-fill: #003333;
+  -fx-font-size: 1.2em;
+}
+
+.chart-legend {
+  -fx-background-color: transparent;
+}
+
+.chart-legend-item {
+  -fx-text-fill: #555555;
+}
+
+.chart-plot-background {
+  -fx-background-color: transparent;
+}
+
+.chart-vertical-grid-lines {
+  -fx-stroke: #dddddd;
+}
+
+.chart-horizontal-grid-lines {
+  -fx-stroke: #dddddd;
+}
+
+.axis {
+  -fx-tick-label-fill: #666666;
+  -fx-tick-length: 10;
+  -fx-minor-tick-length: 5;
+}
+
+.axis-label {
+  -fx-text-fill: #555555;
+}
+
+/* Line Chart Specific */
+.series0.chart-series-line {
+  -fx-stroke: #003333;
+  -fx-stroke-width: 3px;
+}
+
+.series1.chart-series-line {
+  -fx-stroke: #00695c;
+  -fx-stroke-width: 3px;
+}
+
+.chart-line-symbol {
+  -fx-background-color: #003333, white;
+  -fx-background-insets: 0, 2;
+  -fx-background-radius: 5px;
+  -fx-padding: 5px;
+}
+
+/* Bar Chart Specific */
+.series0.chart-bar {
+  -fx-bar-fill: #003333;
+}
+
+.series1.chart-bar {
+  -fx-bar-fill: #00695c;
+}
