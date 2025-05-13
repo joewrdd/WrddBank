@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![WRDD Bank System](client/src/main/resources/Images/bank_logo.png)
+![WRDD Bank System](client/src/main/resources/Images/icon.png)
 
 [![Java](https://img.shields.io/badge/Java-17%2B-ED8B00?style=for-the-badge&logo=java&logoColor=white)](https://www.oracle.com/java/)
 [![JavaFX](https://img.shields.io/badge/JavaFX-17%2B-8A2BE2?style=for-the-badge&logo=java&logoColor=white)](https://openjfx.io/)
